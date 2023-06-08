@@ -207,7 +207,7 @@ main {
         }
 
         img {
-          padding-left: 250px;
+          padding-left: 240px;
 
           @media (max-width: 768px) {
             max-width: 100%;
@@ -395,6 +395,8 @@ footer {
   height: 144px;
   @media (max-width: 768px) {
     height: 290px;
+    position: relative;
+    margin-bottom: -100px;
   }
   position: fixed;
   width: 100%;

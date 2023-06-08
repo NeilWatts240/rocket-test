@@ -213,7 +213,7 @@ main .main-container .main-content-container .main-content .main-content-info .s
   font-weight: normal;
 }
 main .main-container .main-content-container .main-content img {
-  padding-left: 250px;
+  padding-left: 240px;
 }
 @media (max-width: 768px) {
   main .main-container .main-content-container .main-content img {
@@ -400,6 +400,8 @@ footer {
 @media (max-width: 768px) {
   footer {
     height: 290px;
+    position: relative;
+    margin-bottom: -100px;
   }
 }
 footer .footer-container {
